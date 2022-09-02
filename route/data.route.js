@@ -2,7 +2,7 @@
 
     const router=express.Router();
 
-    router.get('/:id',(req,res)=>{
+    router.get('/',(req,res)=>{
         res.send('data send1 id get')
     })
 
